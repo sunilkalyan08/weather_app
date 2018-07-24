@@ -1,28 +1,7 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Steps to run the application
+1) Ruby version should be 2.4.1 & Rails version 5.1.1
+2) bundle install
+3) Run the application with rails s in terminal 
+4) Copy the link in browser it will navigate to List of Cities. Click on any city to check the next 10 days weather forecast
