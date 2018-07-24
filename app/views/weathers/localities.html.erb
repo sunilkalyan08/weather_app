@@ -1,0 +1,10 @@
+<input id="santa" type="button" value="Santa Clara" class="btn-libra weather-report">
+<br><br><br>
+<div id="weather-info">
+</div>
+<script>
+  $('.weather-report').click(function(e){
+    var data = 'city=' + $(this).attr('id');
+    $.ajax({data: data, dataType: 'script', type: 'post', url: '/weather_report'})
+  })
+</script>

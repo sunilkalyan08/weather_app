@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="col-md-3">
+    <div class="panel panel-success">
+      <div class="panel-heading text-center">
+        <b>Forecast for <%= @weather_details["location"]["city"] + "," + @weather_details["location"]["region"] %></b>
+      </div>
+      <table>
+        <tr>
+          <th>Date</th>
+          <th>Day</th>
+          <th>High</th>
+          <th>Low</th>
+          <th>Description</th>
+        </tr>
+        <% @weather_details["item"]["forecast"].each do |data| %>
+          <tr>
+            <td><%= Date.parse(data["date"]).strftime("%e, %b %Y") %></td>
+            <td><%= Date.parse(data["date"]).strftime("%A") %></td>
+            <td><%= data["high"] %></td>
+            <td><%= data["low"] %></td>
+            <td><%= data["text"] %></td>
+          </tr>
+        <% end %>
+</table>
+    </div>
+  </div>
+</div>

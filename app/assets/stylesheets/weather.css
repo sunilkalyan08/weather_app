@@ -1,0 +1,21 @@
+table, th, td {
+    border: 1px solid black;
+}
+.btn-libra {
+  display: inline-block;
+  background-image: none;
+  border-radius: 2px;
+  text-align: center;
+  padding: 7.5px 24px !important;
+  font-size: 12px !important;
+  font-weight: 600;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  vertical-align: middle;
+  border-width: 1px;
+  border-style: solid;
+  transition: 150ms ease-in-out;
+  cursor: pointer;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
