@@ -1,7 +1,13 @@
 == README
 
+Versions to be check
+
+1. Ruby 2.4.1
+2. Rails 5.1.1
+
 Steps to run the application
-1) Ruby version should be 2.4.1 & Rails version 5.1.1
-2) bundle install
-3) Run the application with rails s in terminal 
-4) Copy the link in browser it will navigate to List of Cities. Click on any city to check the next 10 days weather forecast
+
+1. Clone the repo via SSH or https.
+2. Goto your project path (i.e. ~/weather-app) in Finder/File Explorer.
+3. Then open `**Terminal**` and goto path `~/weather-app`
+4. Type `bundle install` (assuming you have bundler installed) to install the necessary gems for the project.
